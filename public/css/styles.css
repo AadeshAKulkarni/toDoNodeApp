@@ -1,0 +1,129 @@
+html { font-size: 2vw; }
+body{
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #1F1F1F 20%, #2F2F2F 80%);
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+h2 {
+  color: #000;
+  padding: 10px;
+}
+
+.box-ak {
+  max-width: 600px;
+  font-family: 'Stylish', sans-serif;
+  margin: 50px auto;
+  border-radius: 5px;
+  -webkit-border-top-left-radius: 100px;
+  -webkit-border-bottom-right-radius: 100px;
+  -moz-border-radius-topleft: 100px;
+  -moz-border-radius-bottomright: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+
+}
+
+#heading-ak {
+  background-color: #FFDE03;
+  color:#000;
+  text-align: center;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.item-ak {
+  background-color:#FFF;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom:2px;
+}
+
+.item-ak:first-child {
+  -webkit-border-top-left-radius: 50px;
+  -moz-border-radius-topleft: 50px;
+  border-top-left-radius: 50px;
+}
+
+.item-ak:last-child{
+  -webkit-border-bottom-right-radius: 50px;
+  -moz-border-radius-bottomright: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+input:checked+p {
+  text-decoration:line-through;
+  text-decoration-color: #01579B;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+input[type="text"]{
+  background-color:"#01579B";
+}
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form.item-ak {
+  text-align: center;
+  background-color: #01579B;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #304FFE;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -2px 0 0 #grey;
+  background-color:#FFF;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.top{
+  -webkit-border-top-left-radius: 50px;
+  -moz-border-radius-topleft: 50px;
+  border-top-left-radius: 50px;
+}
+
+.btn span.glyphicon {
+	opacity: 0;
+}
+.btn.active span.glyphicon {
+	opacity: 1;
+}
